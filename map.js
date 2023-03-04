@@ -7,6 +7,41 @@ let playerY = 0;
 const mapWidth = 10;
 const mapHeight = 10;
 
+// Read player input
+keypress(process.stdin);
+process.stdin.setRawMode(true);
+process.stdin.resume();
+process.stdin.on("keypress", (ch, key) => {
+  if (key && key.ctrl && key.name === "c") {
+    process.exit();
+  } else {
+    switch (key.name) {
+      case "up":
+        if (playerY > 0) {
+          playerY--;
+        }
+        break;
+      case "down":
+        if (playerY < mapHeight - 1) {
+          playerY++;
+        }
+        break;
+      case "left":
+        if (playerX > 0) {
+          playerX--;
+        }
+        break;
+      case "right":
+        if (playerX < mapWidth - 1) {
+          playerX++;
+        }
+        break;
+      default:
+        break;
+    }
+  }
+});
+
 // Define game loop function
 function gameLoop() {
   // Clear the terminal
@@ -24,41 +59,6 @@ function gameLoop() {
     }
     console.log(row);
   }
-
-  // Read player input
-  keypress(process.stdin);
-  process.stdin.setRawMode(true);
-  process.stdin.resume();
-  process.stdin.on("keypress", (ch, key) => {
-    if (key && key.ctrl && key.name === "c") {
-      process.exit();
-    } else {
-      switch (key.name) {
-        case "up":
-          if (playerY > 1) {
-            playerY--;
-          }
-          break;
-        case "down":
-          if (playerY < mapHeight - 1) {
-            playerY++;
-          }
-          break;
-        case "left":
-          if (playerX > 0) {
-            playerX--;
-          }
-          break;
-        case "right":
-          if (playerX < mapWidth - 1) {
-            playerX++;
-          }
-          break;
-        default:
-          break;
-      }
-    }
-  });
 
   // Call the game loop again
   setTimeout(gameLoop, 100);
