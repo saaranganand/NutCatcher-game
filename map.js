@@ -2,8 +2,8 @@ import readline from "readline";
 import keypress from "keypress";
 
 // Define game variables
-let playerX = 0;
-let playerY = 0;
+let playerX = 5;
+let playerY = 9;
 const mapWidth = 10;
 const mapHeight = 10;
 
@@ -16,16 +16,16 @@ process.stdin.on("keypress", (ch, key) => {
     process.exit();
   } else {
     switch (key.name) {
-      case "up":
-        if (playerY > 0) {
-          playerY--;
-        }
-        break;
-      case "down":
-        if (playerY < mapHeight - 1) {
-          playerY++;
-        }
-        break;
+      // case "up":
+      //   if (playerY > 0) {
+      //     playerY--;
+      //   }
+      //   break;
+      // case "down":
+      //   if (playerY < mapHeight - 1) {
+      //     playerY++;
+      //   }
+      //   break;
       case "left":
         if (playerX > 0) {
           playerX--;
@@ -40,6 +40,7 @@ process.stdin.on("keypress", (ch, key) => {
         break;
     }
   }
+  console.log(`${playerX}, ${playerY}`);
 });
 
 // Define game loop function
