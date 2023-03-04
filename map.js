@@ -2,10 +2,22 @@ import readline from "readline";
 import keypress from "keypress";
 
 // Define game variables
-let playerX = 18;
-let playerY = 18;
+let playerX = 0;
+let playerY = 6; // Start at 7th row from the top
 const mapWidth = 37;
 const mapHeight = 19;
+
+// Define game sprite
+const sprite = [
+  "  \\ /  ",
+  " (o.o) ",
+  "(=^=^=)",
+  " (> <) "
+];
+
+// Define sprite dimensions
+const spriteWidth = 7;
+const spriteHeight = 4;
 
 // Read player input
 keypress(process.stdin);
@@ -17,12 +29,12 @@ process.stdin.on("keypress", (ch, key) => {
   } else {
     switch (key.name) {
       case "left":
-        if (playerY === mapHeight - 1 && playerX > 0) {
+        if (playerX > 0) {
           playerX--;
         }
         break;
       case "right":
-        if (playerY === mapHeight - 1 && playerX < mapWidth - 1) {
+        if (playerX < mapWidth - spriteWidth) {
           playerX++;
         }
         break;
@@ -42,8 +54,12 @@ function gameLoop() {
     let row = "";
     for (let x = 0; x < mapWidth; x++) {
       let cell = ".";
-      if (x === playerX && y === playerY) {
-        cell = "P";
+      if (y >= mapHeight - spriteHeight && y < mapHeight && x >= playerX && x < playerX + spriteWidth) {
+        const spriteRow = y - (mapHeight - spriteHeight);
+        const spriteCol = x - playerX;
+        if (spriteRow >= 0 && spriteRow < sprite.length && spriteCol >= 0 && spriteCol < sprite[spriteRow].length) {
+          cell = sprite[spriteRow][spriteCol];
+        }
       }
       row += `${cell}`;
     }
