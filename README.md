@@ -2,17 +2,19 @@
 <ins>About the game:</ins>
 <br>
 - Terminal-based JavaScript game. <br>
-1. Download the script / copy it into a new .js file. 
-2. Install the dependencies listed below <i>(npm i chalk keypress)</i> and <i>node.js</i> then execute the provided command.
 - You are a squirrel climbing a tree, catching nuts as they fall. 🐿️
 
-<b>DEPENDENCIES:</b>
-<br>
-Packages: <br>
-Chalk, KeyPress, Node.js <br>
+<b>HOW TO INSTALL:</b>
+1. Make sure you have 'Node.js' installed on your device.
+1. Download the ZIP from github.
+2. Extract to get a folder.
+3. Open the folder in your preferred IDE.
+4. Open a terminal.
+4. Make sure you are in the 'NutCatcher' directory. (Use <i>cd NutCatcher</i> in terminal.)
+5. Run the command <i>node game.js</i>
 
-Command: <br>
-<i>node game.js / node whatevernameyougaveit.js</i>
+<b>DEPENDENCIES:</b>
+node.js
 
 ---
 
