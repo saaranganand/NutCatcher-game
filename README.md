@@ -9,7 +9,7 @@
 1. Download the ZIP from github.
 2. Extract to get a folder.
 3. Open the folder in your preferred IDE.
-4. Open a terminal.
+4. Open a terminal window.
 4. Make sure you are in the 'NutCatcher' directory. (Use <i>cd NutCatcher</i> in terminal.)
 5. Run the command <i>node game.js</i>
 
