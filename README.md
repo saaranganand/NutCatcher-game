@@ -8,5 +8,5 @@ Terminal-based JavaScript game.
 
 <b>DEPENDENCIES:</b>
 <br>
-Libraries: Chalk, KeyPress, ReadLine, Node.js
+Libraries: Chalk, KeyPress, ReadLine, Node.js <br>
 Command: Node game.js
