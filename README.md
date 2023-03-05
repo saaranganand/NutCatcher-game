@@ -1,4 +1,4 @@
-# Root_Squirrel
+# NutCatcher
 <ins>About the game:</ins>
 <br>
 - Terminal-based JavaScript game. <br>
