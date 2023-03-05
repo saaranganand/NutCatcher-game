@@ -9,4 +9,6 @@ Terminal-based JavaScript game.
 Libraries: Chalk, KeyPress, ReadLine, Node.js <br>
 Command: <i>node game.js</i>
 
+---
+
 Made for RootHacks - SystemHacks 2023
