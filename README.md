@@ -4,7 +4,7 @@
 - Terminal-based JavaScript game. <br>
 1. Download the script. 
 2. Install the dependencies listed below then execute the provided command.
-- You are a squirrel climbing a tree, making its way from the "roots" until it gets how many ever nuts it needs.
+- You are a squirrel climbing a tree, catching nuts as they fall. 🐿️
 
 <b>DEPENDENCIES:</b>
 <br>
