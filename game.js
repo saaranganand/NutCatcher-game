@@ -1,7 +1,5 @@
-import readline from "readline";
 import keypress from "keypress";
 import chalk from "chalk";
-import { kill } from "process";
 
 // Define game variables
 let playerX = 0;
