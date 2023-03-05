@@ -11,4 +11,4 @@ Command: <i>node game.js</i>
 
 ---
 
-Made for RootHacks - SystemHacks 2023
+Made for RootHacks - SystemsHacks 2023
