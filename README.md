@@ -19,3 +19,5 @@ node.js
 ---
 
 Made for RootHacks - SystemsHacks 2023
+
+! May not work on Windows, still troubleshooting. !
