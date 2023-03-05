@@ -8,8 +8,11 @@
 
 <b>DEPENDENCIES:</b>
 <br>
-Packages: Chalk, KeyPress, ReadLine, Node.js <br>
-Command: <i>node game.js / node whatevernameyougaveit.js</i>
+Packages: <br>
+Chalk, KeyPress, ReadLine, Node.js <br>
+
+Command: <br>
+<i>node game.js / node whatevernameyougaveit.js</i>
 
 ---
 
