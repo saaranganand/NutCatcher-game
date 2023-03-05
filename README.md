@@ -13,7 +13,7 @@
 4. Make sure you are in the 'NutCatcher' directory. (Enter '<i>cd NutCatcher</i>')
 5. Enter the command '<i>node game.js</i>'
 
-<b>DEPENDENCIES:</b>
+<b>DEPENDENCIES:</b> <br>
 node.js
 
 ---
