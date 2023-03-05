@@ -1,7 +1,7 @@
 # NutCatcher
 <ins>About the game:</ins>
 <br>
-- Terminal-based JavaScript game. <br>
+- Terminal-based JavaScript catcher game. <br>
 - You are a squirrel climbing a tree, catching nuts as they fall. 🐿️
 
 <b>HOW TO INSTALL:</b>
