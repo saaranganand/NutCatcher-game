@@ -3,7 +3,7 @@
 <br>
 - Terminal-based JavaScript game. <br>
 1. Download the script / copy it into a new .js file. 
-2. Install the dependencies listed below then execute the provided command.
+2. Install the dependencies listed below <i>(npm i chalk keypress readline) & node.js</i> then execute the provided command.
 - You are a squirrel climbing a tree, catching nuts as they fall. 🐿️
 
 <b>DEPENDENCIES:</b>
