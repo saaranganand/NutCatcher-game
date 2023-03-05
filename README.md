@@ -6,7 +6,7 @@ Made for RootHacks - SystemHacks 2023
 You are a squirrel climbing a tree, making its way from the "roots" until it gets how many ever nuts it needs.
 Terminal-based JavaScript game.
 
-<b>DEPENDENCIES</b>
+<b>DEPENDENCIES:</b>
 <br>
 Libraries: Chalk, KeyPress, ReadLine, Node.js
 Command: Node game.js
