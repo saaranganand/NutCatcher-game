@@ -8,7 +8,7 @@
 
 <b>DEPENDENCIES:</b>
 <br>
-Libraries: Chalk, KeyPress, ReadLine, Node.js <br>
+Packages: Chalk, KeyPress, ReadLine, Node.js <br>
 Command: <i>node game.js</i>
 
 ---
