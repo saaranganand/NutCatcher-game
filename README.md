@@ -12,8 +12,8 @@
 3. Open the folder in your preferred IDE.
 4. Open a terminal window.
 4. Make sure you are in the 'NutCatcher' directory. (Enter '<i>cd NutCatcher</i>')
-5. Enter the command '<i>node game.js</i>'
-Note: If the terminal gives you a 'throw err;', go into package.json and click on <i>Debug</i> under "type": "module".
+5. Enter the command '<i>node game.js</i>'<br>
+<ins>Note:</ins> If the terminal gives you a 'throw err;', go into package.json and click on <i>Debug</i> under "type": "module".
 
 <b>DEPENDENCIES:</b> <br>
 node.js
