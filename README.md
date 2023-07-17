@@ -2,7 +2,7 @@
 <ins>About the game:</ins>
 <br>
 - Terminal-based JavaScript catcher game. <br>
-- Currently only a UNIX release.
+- Currently only a UNIX release. (Run on Windows using WSL subsystem with Node.js installed)
 - You are a squirrel climbing a tree, catching nuts as they fall. 🐿️
 
 <b>HOW TO INSTALL:</b>
