@@ -112,6 +112,7 @@ function gameLoop() {
   if(score == 5)
   {
     console.log(chalk.bgGreen(`Good job making it to ${score}! Hope you enjoyed :)`));
+    console.log(chalk.bgCyan(`Edit the score variable in this 'if' statement to change the difficulty!`));
     process.exit();
   }
 }
