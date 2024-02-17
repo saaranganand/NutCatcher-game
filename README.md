@@ -1,3 +1,10 @@
+#### <ins>Update:</ins> 
+#### Long-awaited sequel to hit game 'NutCatcher' -
+### 🐿️🥷 [<ins>NutCatcher 2</ins>](https://github.com/saaranganand/NutCatcher-game/releases/tag/v2.0) 🥷🐿️ 
+#### out now! 
+##### Play the highly-anticipated next installment in famous 'NutCatcher' series (NutCatcher 2) now!
+##### Click the link above to play "NutCatcher 2" (the sequel to hit game "NutCatcher" that the world has been waiting for) right now!
+---
 # NutCatcher
 <ins>About the game:</ins>
 <br>
