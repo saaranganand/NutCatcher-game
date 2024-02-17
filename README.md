@@ -4,6 +4,8 @@
 #### out now! 
 ##### Play the highly-anticipated next installment in famous 'NutCatcher' series (NutCatcher 2) now!
 ##### Click the link above to play "NutCatcher 2" (the sequel to hit game "NutCatcher" that the world has been waiting for) right now!
+<h6> Setup instructions remain the same as smash-hit game NutCatcher 1.
+
 ---
 # NutCatcher
 <ins>About the game:</ins>
